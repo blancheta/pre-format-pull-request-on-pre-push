@@ -60,7 +60,7 @@ done
 
 ########
 
-# CREATE PULL REQUEST HEADER
+# CREATE PULL REQUEST DESCRIPTION
 
 current_branch=`git rev-parse --abbrev-ref HEAD`
 IFS='-' read -r -a tmp_array <<< "$current_branch"
