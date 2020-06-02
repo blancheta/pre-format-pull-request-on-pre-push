@@ -79,7 +79,7 @@ body="[$issue](https://bifup.atlassian.net/browse/$issue)
 # CREATE PULL REQUEST TITLE
 
 commit_message=`git log --pretty=format:%s -n1`
-title="$issue - $commit_message"
+title="$commit_message"
 
 open -a "Google Chrome" "https://github.com/$username/$project/compare/$current_branch?expand=1&body=$body&title=$title"
 
